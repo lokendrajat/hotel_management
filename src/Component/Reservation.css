@@ -1,0 +1,10 @@
+.resform{
+    background-color:rgba(197, 192, 192, 0.609);
+}
+ .reservbtn{
+    border:1px solid orange;
+    cursor:pointer;
+  }
+  .reservbtn:hover{
+     color:orange;
+  }

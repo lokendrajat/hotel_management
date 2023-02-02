@@ -1,0 +1,18 @@
+.card-main{
+    width: 70%;
+    height:40%;
+    padding-left: 5px;
+  }
+   .card-group{
+    width:auto;
+    height:60vh;
+    padding:10px;
+    cursor: pointer;
+    
+  }
+    .card img{
+      margin:10px;
+      height:160px;
+      width:auto;
+      
+    }

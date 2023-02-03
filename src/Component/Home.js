@@ -28,18 +28,8 @@ function Home() {
             parts from various templates in your website!
           </p>
         </div>
-        
+        </div>
         <Facility/>
-
-        <div class="row">
-          <div class="col">
-            <img src={Imageten} class="slogo" alt="" />
-            <h5 className="emg-t fs-1">RESTAURANT</h5>
-          </div>
-        </div> 
-         
-       
-      </div>
       <Container/>
         <Footer/>
     </>

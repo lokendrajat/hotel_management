@@ -5,7 +5,7 @@ import { BiMap } from "@react-icons/all-files/bi/BiMap";
 function Footer() {
   return (
     <>
-        <div className='row container-fluid p-5' style={{backgroundColor:"gray"}}>
+        <div className='row  p-5' style={{backgroundColor:"gray"}}>
             
           <div className='col-4 p-5'>
               <span className='text-warning'>ABOUT US</span> <br/> <br/>

@@ -1,21 +1,29 @@
 import React from 'react'
-import ImageOne from "../Image/image-1.jpg";
-import Imagetwo from "../Image/image-2.jpg";
-import Imagethree from "../Image/image-3.jpg";
-import Imagefour from "../Image/image-4.jpeg";
-import Imagefifth from "../Image/image-5.jpg";
-import Imagesix from "../Image/image-6.jpg";
-import Imagesevanth from "../Image/image-7.avif";
-import Imageeight from "../Image/image-8.jpg";
-import Imagenine from "../Image/image-9.jpg";
-import Imageelevan from "../Image/image-11.jpg";
-import Imagetwelva from "../Image/image-12.webp";
-import Imagethirteen from "../Image/image-13.jpg";
+import { featuresitem} from "../Component/featuresitem"
 import Footer from './Footer';
 function Facility() {
   return (
     <>
-    <div>
+
+{
+    featuresitem.map((item)=>
+   <div className="container-fluid bg-dark ">
+    <div className="row">
+    <div className="col-4">
+    <img src={item.image} className="emg" alt="imageone" />
+    <h5 className="emg-t ">{item.title}</h5>
+    </div>
+    <div className="col p-5">
+        <h5 className="emg-t ">{item.about}</h5>
+          </div>
+       </div>
+   </div>
+     )
+  }
+
+
+
+    {/* <div>
       
       <div className="row">
           <div className="col-4">
@@ -77,7 +85,7 @@ function Facility() {
           </div>
         </div>
     </div>
-   <Footer/>
+   */}
    </>
   )
 }
